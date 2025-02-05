@@ -36,5 +36,5 @@ app.use('/api/school', schoolRoute);
 
 
 app.listen(port, '0.0.0.0', () => {
-    console.log(chalk.green.inverse(`LISTENING ON: http://192.168.0.102:${port}`));
+    console.log(chalk.green.inverse(`LISTENING ON: http://0.0.0.0:${port}`));
 });
